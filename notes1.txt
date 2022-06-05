@@ -1,0 +1,94 @@
+Intro:
+
+I started my carreer as a middleware engineer supporting mainly websphere 
+& IHS stack. 
+I was mainly repsonsible for installing, providions the stack on on-prem.
+Later I got an oppurtunity to role out devops tools within our estate.
+Our prime agenda was to make developer as much self service as they can, 
+so that they don't rely on operations team for build & deploy.
+I was heavily ivolved in getting all the tools integrated within jenkins pipeline.
+We use jenkins as our orchestration tool for continuous integration and continuous 
+deployment.
+Integrated all the tools right from version control, code security tools 
+and deployment tools.
+Later got opportunity to migrate our on-prem workloads to AWS 
+(started of with tier-2 app intiatially)
+did a kind of lift and shift approach and migrated on to EC2, 
+later containarized the app and migrated to EKS.
+currently responsible to provision the infrstructure using terraform 
+when migrating to cloud.
+
+
+current project:
+currently working on migrating workloads that are on on-prem to AWS on to EKS clusters
+we use Jenkins for orchestration process and we provision all the resources(EKS
+cluster, IAM, Terraform)
+we use Jenkins to provision resources and also we use helm charts to deploy any app
+deployments to EKS cluster.
+I am also involved in writing dockerfile for creating Images and push it to ECR 
+and work closely with developer in writing dockerfile.
+
+
+Ansible- it is a configuration management tool, we should follow this inorder to
+keep track of all updates that are going into the system over a period of time.
+it can loop with the roll base as well
+Ansible is a combination of multiple pieces working together to become an 
+automation tool. Mainly there are modules. playbooks and plugins.
+Modules are small codes that will get executed.
+
+Jenkins:
+Jenkins is an open-source automation tool written in Java with plugins built for 
+Continuous Integration purposes. Jenkins is used to build and test your software 
+projects continuously making it easier for developers to integrate changes to the 
+project, and making it easier for users to obtain a fresh build. It also allows you 
+to continuously deliver your software by integrating with a large number of 
+testing and deployment technologies.
+
+Jenkins achieves Continuous Integration with the help of plugins. 
+Plugins allow the integration of Various DevOps stages. 
+If you want to integrate a particular tool, you need to install the plugins 
+for that tool. For example Git, Maven 2 project, Amazon EC2, HTML publisher etc.
+
+Advantages of Jenkins include:
+It is an open-source tool with great community support.
+It is easy to install.
+It has 1000+ plugins to ease your work. If a plugin does not exist, you can code it 
+and share it with the community.
+It is free of cost.
+It is built with Java and hence, it is portable to all the major platforms.
+
+
+Sonarqube:
+Sonar is a web based code quality analysis tool for Maven based Java projects. 
+It covers a wide area of code quality check points which include: 
+Architecture & Design, Complexity, Duplications, Coding Rules, Potential Bugs, 
+Unit Test etc.
+Sonar uses a Derby or H2 as default database. When running Sonar, 
+it says that these databases may only be used for evaluation. We can change this 
+default database and use our custom DB.
+
+Advantages:
+SonarQube is open source
+SonarQube supports for various languages like Java, C#
+SonarQube reports for duplicate code, unit testing, code coverage, 
+code complexity historical
+We can integrate SonarQube with build tools like ant, gradle
+SonarQube has Eclipse plugin like Sonarlint
+SonarQube supports external plugins like plugin for ldap
+
+Checkmarx:
+Checkmarx CxSAST is a unique source code analysis solution that provides tools 
+for identifying, tracking, and repairing technical and logical flaws in the 
+source code, such as security vulnerabilities, compliance issues, and business 
+logic problems.
+The CxSAST Jenkins plugin enables:
+Automatic code scan on CxSAST server, upon each build triggered by Jenkins
+Ability to run Open Source Analysis (CxOSA) from within Jenkins
+Graphical Scan results summary and trends in Jenkins interface
+Links from Jenkins to CxSAST and CxOSA detailed scan results and to PDF report
+
+Qualys
+Qualys is a cloud-based solution that detects vulnerabilities on all networked 
+assets, including servers, network devices (e.g. routers, switches, firewalls, etc.),
+peripherals (such as IP-based printers or fax machines) and workstations. 
+Qualys can assess any device that has an IP address.
